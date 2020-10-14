@@ -1,0 +1,42 @@
+h4{
+    font-weight: bold;
+    font-family: monospace;
+    padding-top:10px;
+}
+.container{
+    background-image: repeating-linear-gradient(white,#CCFFFF);
+    Color:#137c7c;
+    text-align: center;
+    padding:40px;
+    font-style:bold;
+    width:100%;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:white;
+    color:#1c7979;
+  }
+  
+  li {
+    float: top right;
+  }
+  
+  li a {
+    display: block;
+    color:#1c7979;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color:grey;
+  }
+  .card-deck{
+      width:100%;
+  }
