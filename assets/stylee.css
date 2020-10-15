@@ -5,10 +5,10 @@ h4{
 }
 .container{
     background-image: repeating-linear-gradient(white,#CCFFFF);
-    Color:#137c7c;
+    Color:#12b1b1;
     text-align: center;
     padding:40px;
-    font-style:bold;
+    font-weight:bold;
     width:100%;
 
 }
@@ -18,9 +18,9 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color:white;
-    color:#1c7979;
+    color:#12b1b1;
     justify-content: center;
-    font-weight: bold;
+    font-weight:bold;
   }
   
   li {
@@ -29,7 +29,7 @@ ul {
   
   li a {
     display: block;
-    color:#1c7979;
+    color:#12b1b1;
     text-align: center;
     padding: 14px 16px;
     text-decoration:none;
@@ -43,3 +43,47 @@ ul {
   .card-deck{
       width:100%;
   }
+.btn{
+      background-color: orange;
+      color:white;
+      
+    border-style: none;
+    border-radius: 12px;
+  
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.container1{
+    background-color:#12b1b1;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    padding:40px;
+    width:100%;
+    justify-content: center;
+    float:center;
+}
+.card-deck2{
+    border-width:20px;
+   height:50px;
+}
+.button {
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    justify-content: center;
+  }
+
+
+      
+  
+  
