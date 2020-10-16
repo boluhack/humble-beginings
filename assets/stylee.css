@@ -2,6 +2,8 @@ h4{
     font-weight: bold;
     font-family: monospace;
     padding-top:10px;
+    color:#12b1b1;
+    font-size: 60px;
 }
 .container{
     background-image: repeating-linear-gradient(white,#CCFFFF);
@@ -43,8 +45,8 @@ ul {
   .card-deck{
       width:100%;
   }
-.btn{
-      background-color: orange;
+.button{
+      background-color:orange;
       color:white;
       
     border-style: none;
@@ -70,7 +72,7 @@ ul {
     border-width:20px;
    height:50px;
 }
-.button {
+.btn1{
     background-color: orange;
     border: none;
     border-radius: 5px;
@@ -82,6 +84,69 @@ ul {
     font-size: 16px;
     justify-content: center;
   }
+
+.btn2 {
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    justify-content:center;
+   
+  }
+  .btn3{
+    background-color:rgb(49, 47, 47);
+    border: none;
+    border-radius: 1px;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin:20px;
+    justify-content: center;
+  }
+.container2{
+    background-color:#12b1b1;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    padding:40px;
+    width:100%;
+    justify-content: center;
+    float:center;
+}
+.video{
+    text-align:center;
+    background-color:whitesmoke;
+}
+.container3{
+    display:inline;
+    text-align:center;
+    background-color:whitesmoke;
+}
+
+
+.ul2{
+    list-style: none;
+   color:black;
+   font-size:14px;
+  }
+  
+  .ul2 li:before {
+    content: '✓';
+    margin-left: -38px;
+  }
+
+
+
+
+
 
 
       
