@@ -142,7 +142,83 @@ ul {
     content: '✓';
     margin-left: -38px;
   }
+  /*Boxes*/
+.boxes{
+    display:grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 
+}
+.box{
+    background:white;
+    text-align:center;
+    padding: 20px;
+
+    border-radius:3px;
+      
+}
+.container4{
+    background-color:whitesmoke;
+    Color:#12b1b1;
+    text-align: center;
+    padding:40px;
+    font-weight:bold;
+    width:100%;
+    font-size:12px;
+
+}
+.card{
+    border-style:dashed;
+    border-radius: 5px;
+    border-color:#12b1b1;
+    color:black;
+    justify-content: center;
+    float:center;
+}
+.container5{
+    background-color:rgb(59, 56, 56);
+    color:white;
+    text-align: center;
+    padding:60px;
+    width:100%;
+    justify-content: center;
+    
+}
+.ul3{
+    background-color:rgb(59, 56, 56);
+    color:white;
+}
+.li1{
+    display:inline;
+}
+.ul4{
+    list-style: none;
+    background-color:rgb(59, 56, 56);
+    color:white;
+   font-size:14px;
+  }
+  
+  .ul2 li:before {
+    content: '✓';
+    margin-left: -38px;
+  }
+.ul5{
+    background-color:rgb(59, 56, 56);
+    color:white;
+    font-size:11px;
+}
+footer{
+    background-color:rgb(31, 30, 30);
+    color:white;
+    font-size:12px;
+}
+h5{
+    text-align: center;
+    font-size:14px;
+}
+.card{
+    width:250px;
+}
 
 
 
