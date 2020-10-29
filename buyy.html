@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link rel="stylesheet" href="./assets/buyy.css">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+
+    <title>Bolu's Clone Buy page</title>
+</head>
+<body> 
+    <div class="wrapper">
+    <div class="header">
+           <nav class="navbar navbar-expand-lg  sticky-top navbar-light bg-light">
+               <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                 <ul class="navbar-nav">
+                   <li class="nav-item active">
+                     <a class="nav-link" href="#" style="background-color: white;">Change your city  <i class="fas fa-map-marker-alt"></i><span class="sr-only">(current)</span></a>
+                   </li>
+                   
+                   <!-- Example split danger button -->
+                   <div class="dropdown">
+                       <a class="btn  dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                       All
+                       </a>
+                     
+                       <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                         <a class="dropdown-item" href="#">Abuja</a>
+                         <a class="dropdown-item" href="#">Lagos</a>
+                         <a class="dropdown-item" href="#">Benue</a>
+                       </div>
+                     </div> 
+                   </div>
+               <ul class="nav justify-content-center">
+       
+       
+                   <li class="nav-item">
+                       <a class="nav-link" href="#"> <li><i class="fas fa-phone"></i> 0809 695 1860</li><span class="sr-only">(current)</span></a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="#">Our Locations<span class="sr-only">(current)</span></a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="#">Contact Us<span class="sr-only">(current)</span></a>
+                   </li>
+                   </ul>
+             </nav>
+  
+          <div class="container1">
+             <nav class="navbar navbar-light bg-light">
+               <a class="navbar-brand" href="#">
+              <img src="./assets/images/logo.png" width="200px" height="50px" alt="" loading="lazy">
+             </a>
+             <form>
+               <input type="text" name="searchbar" placeholder="Search brands,models,years and more" size="50" style="border-color:#12b1b1; font-size:15px; padding:15px; margin:10px;">
+               <button type="submit"><i class="fa fa-search"></i style="background-color:white; box-sizing: border-box; padding:15px; line-height:30px;"></button>
+               </form>
+               <ul class="nav justify-content-center">
+       
+       
+                   <li class="nav-item">
+                       <a class="nav-link" href="#"> <li><i class="far fa-heart" style="color:#12b1b1;"></i>0</li><span class="sr-only">(current)</span></a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="#"><i class="fas fa-fire" style="color:#12b1b1;"></i>HOT DEALS<span class="sr-only">(current)</span></a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="#"><button type="button" class="btn" style="border-color:#12b1b1; color:black;">SELL MY CAR</button><span class="sr-only">(current)</span></a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="#"><button type="button" class="btn " style="background-color:#12b1b1; color:white;">LOGIN</button><span class="sr-only">(current)</span></a>
+                   </li>
+                </ul>
+        </div>
+    </div>  
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          
+          <img src="./assets/images/caro1.png" style="width:100%;height:400px;">
+        </div>
+        
+        <div class="mySlides fade">
+         
+          <img src="./assets/images/caro2.jpg" style="width:100%;height:400px;">
+        </div>
+        
+        <div class="mySlides fade">
+          
+          <img src="./assets/images/caro3.jpg" style="width:100%;height:400px;">
+        </div>
+
+        <div class="mySlides fade">
+         
+            <img src="./assets/images/caro4.png" style="width:100%;height:400px;">
+          </div>
+
+          <div class="mySlides fade">
+            
+            <img src="./assets/images/caro5.jpg" style="width:100%;height:400px;">
+          </div>
+
+          <div class="mySlides fade">
+          
+            <img src="./assets/images/caro4.png" style="width:100%;height:400px;">
+          </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <div style="text-align:center;">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+          <span class="dot" onclick="currentSlide(4)"></span> 
+          <span class="dot" onclick="currentSlide(5)"></span> 
+          <span class="dot" onclick="currentSlide(6)"></span> 
+    </div>
+    </div>
+    </div>    
+    
+    <br>
+    <div class="container">
+            <form class="example" action="/action_page.php">
+                <input type="text" placeholder="Search brands,models,years and more.." name="search" size="120">
+                
+              </form>
+           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-6">
+            <div class="col" style="color:#12b1b1;">Find cars by:  </div>
+            <div class="col"> <div class="dropdown">
+                <a class="btn  dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Model
+                </a>
+              
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div> </div>
+            <div class="col"><div class="dropdown">
+                <a class="btn  dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Year
+                </a>
+              
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div> </div>
+            <div class="col"><div class="dropdown">
+                <a class="btn  dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Grade
+                </a>
+              
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div> </div>
+              <div class="col"><div class="dropdown">
+                <a class="btn  dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Price
+                </a>
+              
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div> </div>
+            <div class="col"><div class="dropdown">
+                <a class="btn  dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Transmission
+                </a>
+              
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div> </div>
+           </div>
+          </div>
+    
+          
+        
+        <br><br>
+        <h5 style="padding-left:40px;"><strong>Featured Cars</strong></h5>
+        
+  <div class="card-deck">
+    <div class="card">
+        <div class="container2">
+      <img src="./assets/images/lexus.jpeg" height="200px" class="card-img-top" alt="..." >
+      <button class="button button1"><strong>B</strong></button>
+        </div>
+      <div class="card-body">
+          <div class="row">
+              <div class="col">
+        <display class="card-title"><strong>Lexus GX 2017</strong></display> </div>
+        <div class="col">
+        <label>C45 Marketplace</label></div>
+          </div>
+        <button class="pill">Foreign Used</button>
+        <p class="card-text"><span>&#8358;</span> 28,760,000</p>
+        <p><small class="text-muted">Mileage:289189Km<br>Year:2017<br>Car ID: NG-484529</small></p>
+      </div>
+        
+    
+    </div>
+    <div class="card">
+        <div class="container2">
+            <img src="./assets/images/isuzu.jpeg" height="200px" class="card-img-top" alt="..." >
+            <button class="button button1"><strong>A</strong></button>
+              </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+              <display class="card-title"><strong>Isuzu NQR 2020</strong></display> </div>
+              <div class="col">
+              <label>C45 Marketplace</label></div>
+                </div>
+              <button class="pill" style="background-color:red;">New</button>
+              <p class="card-text"><span>&#8358;</span> 15,000,000</p>
+              <p><small class="text-muted">Mileage:0Km<br>Year:2020<br>Car ID: NG-540684</small></p>
+            </div>
+          </div>
+    <div class="card">
+        <div class="container2">
+            <img src="./assets/images/toyota corolla .jpeg" height="200px" class="card-img-top" alt="..." >
+            <button class="button button1"><strong>A</strong></button>
+              </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+              <display class="card-title"><strong>2016 Toyota Corolla</strong></display> </div>
+              <div class="col">
+              <label>C45 Marketplace</label></div>
+                </div>
+              <button class="pill">Foreign Used</button>
+              <p class="card-text"><span>&#8358;</span> 7,040,000</p>
+              <p><small class="text-muted">Mileage:37244Km<br>Year:2016<br>Car ID: NG-425102</small></p>
+            </div>
+          </div>
+    <div class="card">
+        <div class="container2">
+            <img src="./assets/images/bmw.jpeg" height="200px" class="card-img-top" alt="..." >
+            <button class="button button1"><strong>A</strong></button>
+              </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+              <display class="card-title"><strong>2017 BMW 530i</strong></display> </div>
+              <div class="col">
+              <label>C45 Marketplace</label></div>
+                </div>
+              <button class="pill" style="background-color:grey;">Nigerian Used</button>
+              <p class="card-text"><span>&#8358;</span> 27,511,000</p>
+              <p><small class="text-muted">Mileage:10561Km<br>Year:2017<br>Car ID: NG-455465</small></p>
+            </div>
+          </div>
+      <div class="card">
+        
+        <div class="container2">
+            <img src="./assets/images/honda.jpeg" height="200px" class="card-img-top" alt="..." >
+            <button class="button button1"><strong>A</strong></button>
+              </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+              <display class="card-title"><strong>2017 Honda Civic</strong></display> </div>
+              <div class="col">
+              <label>C45 Marketplace</label></div>
+                </div>
+              <button class="pill">Foreign Used</button>
+              <p class="card-text"><span>&#8358;</span> 9,210,000</p>
+              <p><small class="text-muted">Mileage:199774Km<br>Year:2017<br>Car ID: NG-518018</small></p>
+            </div>
+          </div>
+  </div>
+         
+  <br>
+  <div class="card-deck">
+    <div class="card">
+        <div class="container2">
+      <img src="./assets/images/hondaaccord.jpeg" height="200px" class="card-img-top" alt="..." >
+      <button class="button button1"><strong>B</strong></button>
+        </div>
+      <div class="card-body">
+          <div class="row">
+              <div class="col">
+        <display class="card-title"><strong>2015 Honda Accord</strong></display> </div>
+        <div class="col">
+        <label>C45 Marketplace</label></div>
+          </div>
+        <button class="pill" style="background-color: grey;">Nigerian Used</button>
+        <p class="card-text"><span>&#8358;</span> 7,160,000</p>
+        <p><small class="text-muted">Mileage:15043Km<br>Year:2015<br>Car ID: NG-465125</small></p>
+        </div>
+    
+    </div>
+    <div class="card">
+        <div class="container2">
+            <img src="./assets/images/peugeot.jpeg" height="200px" class="card-img-top" alt="..." >
+            <button class="button button1"><strong>A</strong></button>
+              </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+              <display class="card-title"><strong>2012 Peugeot 508</strong></display> </div>
+              <div class="col">
+              <label>C45 Marketplace</label></div>
+                </div>
+              <button class="pill" style="background-color:grey;">Nigerian Used</button>
+              <p class="card-text"><span>&#8358;</span> 27,511,000</p>
+              <p><small class="text-muted">Mileage:42522Km<br>Year:2012<br>Car ID: NG-331338</small></p>
+            </div>
+          </div>
+  
+          <div class="card">
+            <div class="container2">
+                <img src="./assets/images/suzuki.jpeg" height="200px" class="card-img-top" alt="..." >
+                <button class="button button1"><strong>A</strong></button>
+                  </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col">
+                  <display class="card-title"><strong>Suzuki Swift 2019</strong></display> </div>
+                  <div class="col">
+                  <label>C45 Marketplace</label></div>
+                    </div>
+                  <button class="pill" style="background-color:red;">New   </button>
+                  <p class="card-text"><span>&#8358;</span> 7,100,000</p>
+                  <p><small class="text-muted">Mileage:1Km<br>Year:2019<br>Car ID: NG-445478</small></p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="container2">
+                    <img src="./assets/images/honda city.jpeg" height="200px" class="card-img-top" alt="..." >
+                    <button class="button button1"><strong>A</strong></button>
+                      </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col">
+                      <display class="card-title"><strong>2019 Honda City</strong></display> </div>
+                      <div class="col">
+                      <label>C45 Marketplace</label></div>
+                        </div>
+                      <button class="pill" style="background-color:grey;">Nigerian Used</button>
+                      <p class="card-text"><span>&#8358;</span> 4,035,000</p>
+                      <p><small class="text-muted">Mileage:17930Km<br>Year:2019<br>Car ID: NG-582096</small></p>
+                    </div>
+                  </div>
+                  <br><br><br>
+      <div class="card">
+        <div class="container2">
+            <img src="./assets/images/lexusgs.jpeg" height="200px" class="card-img-top" alt="..." >
+            <button class="button button1"><strong>A</strong></button>
+            <button class="button2"><span style="background-color:white; color:blue; border-radius:50%; font-size:12px; padding:5px;">&#8358;</span> SPECIAL OFFER</button>
+              </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+              <display class="card-title"><strong>2008 Lexus Gs</strong></display> </div>
+              <div class="col">
+              <label style="background-color: black;">C45 Direct</label></div>
+                </div>
+              <button class="pill">Foreign Used</button>
+              <p class="card-text"><span>&#8358;</span> 3,14,000</p>
+              <p><small class="text-muted">Mileage:155038Km<br>Year:2008<br>Car ID: NG-196753</small></p>
+            </div>
+           </div>
+            </div>
+        </div>
+   
+   </div>
+
+<br>
+<div class="link" style="text-align:center ; color:#12b1b1;">
+    <a href="buy.car45.com/cars">See all cars</a>  
+ </div>     
+<br>
+ <div class="container4">
+        <div class="row">
+          <div class="col-4">
+            <h2 class="card-title1">Pre-Order available cars in<br>
+                Nigeria conveniently.</h2>
+            <p>Tell us the car you're looking for and we will help<br> you find it.</p>
+          </div>
+            
+            <div class="col-8">
+            <form> 
+                <div class="form-row">
+                    <div class="col-md-3">
+                       <select class="custom-select" id="validationDefault101"  required>
+                         <option selected disabled value="">Make</option>
+                         <option>Mercedes-Benz</option>
+                         <option>Acura</option>
+                         <option>Audi</option>
+                         <option>Bently</option>
+                         <option>Lexus</option>
+                         <option>BMW</option>
+                         <option>Honda/option>
+                         <option>Toyota</option>
+                        </select>
+                        
+                        </div>
+                        <div class="col-md-2">
+                            <select class="custom-select " id="validationDefault102" required>
+                              <option selected disabled value="">Model</option>
+                             </select>
+                             
+                        </div>  
+                        <div class="col-md-2">
+                            <select class="custom-select" id="validationDefault03" required>
+                            <option selected disabled value="">Year</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <input type="text" class="form-control" id="validationDefault04" placeholder="Budget" required>
+                        </div>
+                        <div class="col-md-3">
+                             <select class="custom-select " id="validationDefault05" required>
+                            <option selected disabled value="">New</option>
+                                 </select>
+                                 
+                        </div>  
+                    </div>
+                    <br><br>
+                    <div class="form-row">
+                        <div class="col">
+                          <input type="text" class="form-control" id="validationDefault06"  placeholder="Name" required>
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" id="validationDefault06"  placeholder="Email" required>
+                          </div>
+                          <div class="col">
+                          <div class="input-group">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text">+234</span>
+                            </div>
+                            <input type="text" class="form-control rounded-right" placeholder="Mobile Number"required></div>
+                        <div class="col">
+                         <button class="btnn" type="submit">SEND REQUEST</button>
+                        </div>
+                        </form>
+            </div>
+        </div></div>
+
+              </form>
+            </div>
+        </div>
+ </div>
+</div>
+             
+            
+
+
+ <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+
+
+    </script>
+    </body>
+    </body>
+
+    </html> 
+    
+    

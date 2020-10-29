@@ -1,0 +1,41 @@
+.container{
+    background-image: repeating-linear-gradient(white,#CCFFFF);
+    Color:#12b1b1;
+    text-align: center;
+    padding:40px;
+    font-weight:bold;
+    width:100%;
+}
+.navbar-brand{
+    float:right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:white;
+    color:#12b1b1;
+    justify-content: center;
+    font-weight:bold;
+  }
+  
+  li {
+    float: center;
+  }
+  
+  li a {
+    display: block;
+    color:#12b1b1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+    justify-content:center;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color:grey;
+    color:#12b1b1;
+  }

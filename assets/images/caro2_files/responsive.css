@@ -1,0 +1,809 @@
+@media screen and (max-width:1350px) {
+    .main_navbar .main_search_wrap .search_field {
+        min-width: 440px
+    }
+    .detail_slider_wrap .detail_slider_thumbs img {
+        width: 70px;
+        height: 70px
+    }
+}
+
+@media screen and (max-width:1199px) and (min-width:992px) {
+    .main_navbar .main_search_wrap .search_field {
+        min-width: auto
+    }
+    .main_navbar .navbar-nav .nav-link {
+        padding-left: .5rem;
+        padding-right: .5rem
+    }
+}
+
+@media screen and (max-width:1199px) {
+    .main_navbar .main_search_wrap .search_field {
+        min-width: auto
+    }
+    .home_featured_box .home_featured_box_content {
+        width: calc(100% - 40px);
+        left: 20px
+    }
+    .home_featured_box {
+        margin: 0 0 100px 0
+    }
+    .featured_cars_wrap.row.grid-5.gutter-20 .grid-5-col {
+        width: 25%
+    }
+    .grid-5 .grid-5-col {
+        width: 25%!important
+    }
+    .detail_slider_wrap .detail_slider_thumbs {
+        max-width: 100%
+    }
+    .main_banner_content .main_banner_content_wrap {
+        padding-top: 20px;
+        padding-left: 60px
+    }
+    .detail_slider_main.slick-initialized .slick-slide,
+    .main_banner_home.slick-initialized .slick-slide {
+        min-height: 340px
+    }
+    .home_featured_box figure.small_thumb.desktop {
+        bottom: auto;
+        top: 20px
+    }
+    .sm_model_dropdown_area {
+        -webkit-columns: 6!important;
+        columns: 6!important
+    }
+    .sm_grade_dropdown_area {
+        width: 466px!important
+    }
+    ul.findbysize_list li {
+        width: 140px!important
+    }
+    ul.findbysize_list li h4 {
+        font-size: 14px!important;
+        font-family: interbold!important
+    }
+    .popular_model_box figure {
+        height: auto!important;
+    }
+}/*ends 1199px*/
+
+@media screen and (max-width:1024px) {
+    .detail_slider_main.slick-initialized .slick-slide,
+    .main_banner_home.slick-initialized .slick-slide {
+        min-height: 320px
+    }
+}
+
+@media screen and (max-width:991px) {
+    .main_navbar .main_navbar_left_side,
+    .main_navbar .main_navbar_right_side {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center
+    }
+    .main_navbar .main_search_wrap .btn-theme-blue {
+        border-radius: 0 .25rem .25rem 0
+    }
+    .main_navbar .nav-item {
+        border-bottom: 1px solid #eee
+    }
+    .main_navbar .navbar-nav .nav-link {
+        margin: 0 0 5px 0
+    }
+    .main_navbar .main_navbar_right_side i {
+        font-size: 18px;
+        vertical-align: middle
+    }
+    .main_banner .main_banner_home .main_banner_content h1,
+    .main_banner .main_banner_home .main_banner_content p {
+        text-align: right
+    }
+    .main_banner .main_banner_home .main_banner_content h1 {
+        font-size: 24px
+    }
+    .main_banner .main_banner_home .main_banner_content .btn {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100%
+    }
+    .product_box {
+        margin: 0 0 20px 0
+    }
+    .title_line_right_area {
+        text-align: initial
+    }
+    .button_compare {
+        display: none
+    }
+    .main_navbar .main_search_wrap {
+        margin-left: 0
+    }
+    .home_featured_box.green .home_featured_box_content {
+        background-color: #b1c909
+    }
+    .home_featured_box.blue .home_featured_box_content {
+        background-color: #003bde
+    }
+    .home_featured_box.gold .home_featured_box_content {
+        background-color: #dfa801
+    }
+    .home_featured_box .home_featured_box_content {
+        width: 100%;
+        top: 0;
+        left: 0;
+        position: relative;
+        padding-top: 2rem
+    }
+    .home_featured_box figure.main_thumb {
+        display: none
+    }
+    .home_featured_box {
+        margin: 0
+    }
+    .container.featured_container>.row>[class*=col-] {
+        padding-left: 0;
+        padding-right: 0
+    }
+    .featured_cars_wrap.row.grid-5.gutter-20 .grid-5-col {
+        width: 33.3333333333334%
+    }
+    .grid-5 .grid-5-col {
+        width: 33.3333333333334%!important
+    }
+    .section_partners {
+        margin-top: 0
+    }
+    ul.partners_list .last-partner {
+        display: none
+    }
+    .filter_trigger_mobile {
+        display: inline-block;
+        float: left
+    }
+    .sort_dropdown_wrap {
+        display: inline-block;
+        float: right
+    }
+    .offcanvas_trigger_close_wrap {
+        display: inline-block
+    }
+    .detail_slider_wrap .detail_slider_thumbs {
+        display: none
+    }
+    ul.detail_tabs {
+        background-color: #f8f8f8;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        position: relative
+    }
+    ul.detail_tabs:after {
+        content: "";
+        background: url(../images/shadow-2.jpg) repeat-x;
+        height: 6px;
+        width: 100%;
+        position: absolute;
+        bottom: -6px
+    }
+    .test_drive_section {
+        margin-bottom: 250px
+    }
+    .detail_tabs_wrap .tab-content>.active {
+        padding: 20px
+    }
+    .test_drive_section figcaption {
+        top: 100%;
+        transform: translateY(-50%);
+        min-height: 250px
+    }
+    .test_drive_section {
+        margin-bottom: 160px
+    }
+    .main_header .navbar-brand img {
+        width: auto;
+        height: auto;
+        max-width: 150px;
+        height: auto;
+        max-height: 31px
+    }
+    .main_header .navbar {
+        padding-top: 8px;
+        padding-bottom: 8px
+    }
+    .main_footer .logo {
+        height: 25px
+    }
+    ul.partners_list li {
+        width: calc(16.6667% - 4px);
+        width: 100px
+    }
+    .detail_header {
+        visibility: visible;
+        height: auto;
+        opacity: 1;
+        padding: 8px 15px
+    }
+    .centeral_section_top_marged {
+        margin-top: 0
+    }
+    .banner_top_layer .container {
+        overflow-x: hidden
+    }
+    .product_box.horizontal figure {
+        width: 40%
+    }
+    .product_box.horizontal figcaption {
+        width: 60%
+    }
+    .banner_top_layer_box {
+        padding-left: 0
+    }
+    .location_box_outer {
+        padding: 0 15px
+    }
+    .main_banner_content.slick-slide {
+        min-height: initial;
+        max-height: initial
+    }
+    .homeKpiSlider {
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 1s
+    }
+    .homeKpiSlider.slick-initialized {
+        visibility: visible;
+        opacity: 1
+    }
+    .homeKpiSlider .slick-slide {
+        display: none
+    }
+    .homeKpiSlider .slick-slide:first-child {
+        display: block;
+        visibility: hidden
+    }
+    .homeKpiSlider.slick-initialized .slick-slide {
+        display: block;
+        visibility: visible!important
+    }
+    .main_banner_content .main_banner_image_wrap {
+        padding-left: 30px
+    }
+    .main_banner .main_banner_content_wrap {
+        padding-right: 30px;
+        padding-top: 0
+    }
+    .main_banner_home .slick-dots {
+        bottom: 20px
+    }
+    .main_banner .main_banner_image_wrap>img {
+        width: 100%
+    }
+    ul.partners_list {
+        padding: 10px 10px 6px 10px
+    }
+    .detail_slider_wrap .product_star i {
+        color: #fff
+    }
+    .detail_slider_wrap .product_star {
+        z-index: 101
+    }
+    .mobile-logout {
+        display: block
+    }
+    .desktop-logout {
+        display: none
+    }
+    .similar_cars_slider .product_box.recently_viewed {
+        min-width: initial;
+        padding-top: 10px
+    }
+    .detail_slider_main.slick-initialized .slick-slide,
+    .main_banner_home.slick-initialized .slick-slide {
+        min-height: 250px
+    }
+    .detail_slider_wrap .product_star {
+        display: none
+    }
+    .right_panel_wrap .title_line.sidebar.fixed-top {
+        position: fixed;
+        top: 53px;
+        background-color: #fff;
+        padding: 10px;
+        z-index: 12;
+        width: 100%
+    }
+    .right_panel_wrap .title_line.sidebar.fixed-top>.row {
+        width: 100%;
+        max-width: 720px;
+        margin: 0 auto
+    }
+    .home_featured_box figure.small_thumb.desktop {
+        display: none
+    }
+    .home_featured_box figure.small_thumb.mobile {
+        display: block
+    }
+    .deleteicon span {
+        right: 85px
+    }
+    .detail_header .product_star i {
+        color: #fff
+    }
+    .footer-detail.main_footer {
+        padding: 40px 0 90px 0
+    }
+    .search_module_wrap_lower .navbar .dropdown-menu {
+        box-shadow: none;
+        padding: 0
+    }
+    .sm_model_dropdown_area {
+        -webkit-columns: 4!important;
+        columns: 4!important
+    }
+    .search_module_wrap_lower .navbar-nav>.nav-item>.nav-link {
+        padding: .5rem 1.25rem 1.5rem 0
+    }
+    .dropdown-toggle::after {
+        float: right;
+        margin-top: 8px
+    }
+    .sm_grade_dropdown_area,
+    .sm_year_dropdown_area {
+        width: 100%!important
+    }
+    .search_module_wrap_lower {
+        padding: 18px 0
+    }
+    .dropdown-toggle[aria-expanded=true]::after {
+        transform: rotate(180deg)
+    }
+    .offer_section_left {
+        border-right: none!important
+    }
+    .offer_section_left_inner {
+        margin-bottom: 50px
+    }
+    .offer_section_left_inner,
+    .offer_section_right_inner {
+        padding: 0!important
+    }
+    .popular_model_box {
+        margin-bottom: 10px
+    }
+    .sm_grade_dropdown_area,
+    .sm_transmission_dropdown_area,
+    .sm_year_dropdown_area {
+        width: 100%!important;
+        min-width: initial!important
+    }
+    .search_module_wrap_lower .navbar-nav>.nav-item>.nav-link {
+        padding-left: 0!important
+    }
+    ul.findbysize_list li:nth-child(even) {
+        display: none
+    }
+    .search_module_wrap {
+        margin-top: 40px!important
+    }
+    .subfooter ul {
+        margin: 8px 0;
+    }
+    .full-card .product_box> figure, 
+    .full-card .product_box> figure {
+        height: auto!important;
+    } 
+    body {
+        padding-top: 86px !important;
+    }
+    body.page-details {
+        padding-top: 0 !important;   
+    }
+
+}/*ends 991px*/
+
+@media screen and (max-width:767px) {
+    .featured_cars_wrap.row.grid-5.gutter-20 .grid-5-col {
+        width: 50%
+    }
+    .grid-5 .grid-5-col {
+        width: 50%!important
+    }
+    .header_slogan {
+        text-align: center
+    }
+    .product_box .price .old-price {
+        display: block;
+        margin-top: 3px
+    }
+    .gen_info_box_wrap {
+        width: 100%
+    }
+    .test_drive_section figcaption {
+        height: auto
+    }
+    .full-card .product_box figure {
+        height: 250px
+    }
+    .main_header.shrink .header_top_row {
+        display: none
+    }
+    ul.partners_list {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex
+    }
+    ul.partners_list li {
+        width: calc(25% - 4px);
+        height: 90px
+    }
+    .locations_header_area .lha_inner .lha_title {
+        float: none;
+        display: block
+    }
+    .locations_header_area .lha_inner .lha_dropdown_area {
+        float: none;
+        width: 300px;
+        position: absolute;
+        left: 50%;
+        top: 100px;
+        transform: translateX(-50%)
+    }
+    .location_box .lb_left {
+        width: calc(100% - 80px)
+    }
+    .location_box .lb_right {
+        width: 50px
+    }
+    .location_box .lb_right figure {
+        display: none
+    }
+    .location_box .lb_right span {
+        display: block
+    }
+    .product_box figcaption h4 {
+        min-height: initial
+    }
+    .reportCarBodyEvaluation .carDiagram {
+        float: none!important;
+        display: block!important;
+        margin: 0 auto 20px!important
+    }
+    .reportCarBodyEvaluation .carRating {
+        float: none!important;
+        display: block!important;
+        width: 100%!important;
+        padding-left: 0!important
+    }
+    .reportCarBodyEvaluation,
+    .reportCarBodyEvaluationContainer {
+        display: block!important;
+        width: 100%!important;
+        float: none!important;
+        margin: 0 auto!important
+    }
+    .locations_map_city_drop label {
+        display: block
+    }
+    .detail_slider_main.slick-initialized .slick-slide,
+    .main_banner_home.slick-initialized .slick-slide {
+        min-height: 200px
+    }
+    .sm_model_dropdown_area {
+        -webkit-columns: 3!important;
+        columns: 3!important
+    }
+    .search_module_wrap_upper {
+        width: calc(100% - 40px)!important
+    }
+    .search_module_wrap {
+        padding: 20px 0
+    }
+    .search_module_wrap_lower .navbar {
+        padding: 0 20px
+    }
+    .subfooter ul {
+        margin: 10px 0
+    }
+    .search_module_wrap_lower .navbar .dropdown-menu {
+        padding: 20px!important
+    }
+    .search_module_wrap_lower .navbar {
+        padding: 0 20px!important
+    }
+    .findMyCarForm .btn {
+        min-width: initial;
+        margin-top: 8px
+    }
+    .listing_products_wrap .product_box figure, 
+    .listing_products_wrap .product_box>figure {
+        height: auto;
+    } 
+}/*ends 767px*/
+
+
+
+@media screen and (max-width:575px) {
+    .at-resp-share-element .at-share-btn {
+        margin: 0 5px 5px 5px!important
+    }
+    .main_navbar .main_search_wrap .search_field {
+        min-width: auto
+    }
+    .section_partners_wrap {
+        padding: 15px 11px
+    }
+    ul.partners_list .h-1p {
+        display: none!important
+    }
+    .filter_area.open,
+    .offcanvas-collapse.open {
+        right: 10%
+    }
+    .filter_area,
+    .offcanvas-collapse {
+        width: 90%
+    }
+    .make-an-offer-section .btn-ourlined-theme-blue {
+        width: 100%;
+        font-size: 18px
+    }
+    .make-an-offer-section ul li:nth-child(2),
+    .make-an-offer-section ul li:nth-child(3) {
+        width: 50px
+    }
+    .make-an-offer-section ul li:first-child {
+        width: calc(100% - 115px)
+    }
+    .make-an-offer-section ul li:nth-child(2) {
+        margin: 0 3px
+    }
+    .product_box>figure {
+        height: 120px
+    }
+    .full-card .product_box > figure {
+        height: 200px
+    }
+    .grid-5 .grid-5-col {
+        width: 100%!important
+    }
+    .product_box>figure {
+        height: 200px
+    }
+    .product_box a>figure>img,
+    .product_box>figure>img {
+        height: 200px
+    }
+    .product_box.horizontal {
+        display: block
+    }
+    .product_box.horizontal figcaption,
+    .product_box.horizontal figure {
+        width: 100%
+    }
+    .product_box.horizontal figure,
+    .product_box.horizontal figure img.img-fluid,
+    .product_box.horizontal>figure,
+    .product_box.horizontal>figure img.img-fluid {
+        border-radius: 5px 5px 0 0
+    }
+    .product_box.horizontal figcaption footer {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 100%
+    }
+    .product_box.horizontal figcaption {
+        padding: 10px 8px
+    }
+    .newsletter_form .form-control {
+        width: calc(100% - 130px)
+    }
+    .newsletter_form .btn {
+        margin-left: 10px
+    }
+    .locations_map_wrap .locations_map_city_drop {
+        width: 75%
+    }
+    .main_banner_content .main_banner_image_wrap {
+        padding-left: 15px;
+        padding-top: 15px
+    }
+    .main_banner .main_banner_content_wrap {
+        padding-right: 15px;
+        padding-left: 15px
+    }
+    .main_banner_content.slick-slide {
+        padding: 50px 0
+    }
+    .main_banner .main_banner_home .main_banner_content .btn {
+        padding-right: 5px;
+        padding-left: 5px
+    }
+    .main_banner .main_banner_content_wrap {
+        position: absolute;
+        width: 100%;
+        bottom: 50px
+    }
+    .main_banner_content.slick-slide {
+        padding: 30px 0 40px 0;
+        min-height: 225px
+    }
+    .main_banner_home .slick-dots {
+        bottom: 20px
+    }
+    .main_banner_content .main_banner_image_wrap {
+        padding-top: 0
+    }
+    .main_banner_home.slick-initialized .slick-slide {
+        background-position: center
+    }
+    ul.partners_list li {
+        height: 60px
+    }
+    .detail_slider_main.slick-initialized .slick-slide img {
+        max-height: 350px
+    }
+    ul.sm_year_list li {
+        width: 50%
+    }
+    ul.sm_grade_list li {
+        margin: 0 0 10px 0;
+        width: 33%
+    }
+    .testimonials_wrap {
+        padding: 30px
+    }
+    .p_fifty {
+        padding: 30px
+    }
+    ul.sm_year_list li {
+        width: 33.33333333334%!important
+    }
+    ul.findbysize_list li {
+        width: 100px!important
+    }
+    .product_box figcaption h4 {
+        min-height: inherit!important
+    }
+    .listing_products_wrap .product_box> figure {
+        height: 100%!important;
+    }
+    .product_box figure img.img-fluid, 
+    .product_box>figure img.img-fluid {
+        /*border-radius: 5px 0 0 5px!important;*/
+        border-radius: 0!important;
+    }
+    /*making product_box horizontal*/
+    .right_panel_wrap .product_box:after,
+    .product_box:after {
+        visibility: hidden;
+        display: block;
+        font-size: 0;
+        content: " ";
+        clear: both;
+        height: 0;
+    }
+    .right_panel_wrap .product_box,
+    .product_box {
+        display: inline-block;
+    }
+    .right_panel_wrap .product_box,
+    .product_box { 
+        display: block; 
+    }
+    .product_box figure, 
+    .product_box>figure {
+        height: auto;
+    }
+    .deal-of-day {
+        padding: 0.2rem 0.4rem 0.3rem 0.4rem!important;
+    }
+    .deal-of-day>figure {
+        display: none;
+    }
+    .deal-of-day>h6 {
+        margin: 0;
+    }
+    .change_city_section p {
+        display: none!important;
+    }
+
+
+}/*ends 575px*/
+
+@media screen and (max-width:480px) {
+    .payment_tabs_wrap ul.nav .nav-link {
+        font-size: 14px
+    }
+    ul.information_list li {
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 14px
+    }
+    ul.body_type_list li {
+        float: left;
+        width: 33.33334%;
+        margin: 0 0 10px 0;
+        padding: 0 5px
+    }
+    ul.body_type_list li figure {
+        width: 100%;
+        height: 55px
+    }
+    ul.body_type_list li figure img {
+        max-width: 90%;
+        max-height: 90%
+    }
+    .banner_top_layer_box {
+        min-width: auto
+    }
+    .newsletter_form .form-control {
+        width: 100%;
+        margin-bottom: 6px
+    }
+    .newsletter_form .btn {
+        margin-left: 0;
+        width: 100%
+    }
+    ul.check_list li {
+        float: none;
+        width: 100%
+    }
+    .detail_slider_main.slick-initialized .slick-slide img {
+        max-height: 270px
+    }
+    .detail_title {
+        padding-right: 15px;
+        padding-left: 15px
+    }
+    .sm_model_dropdown_area {
+        -webkit-columns: 1!important;
+        columns: 1!important
+    }
+    .sm_model_dropdown_area .sm_model_dropdown_unit h6,
+    .sm_model_dropdown_area ul {
+        text-align: center;
+        cursor: pointer
+    }
+    .sm_model_dropdown_area ul {
+        margin: 0;
+        display: none
+    }
+    .sm_model_dropdown_area ul li {
+        margin: 0 0 10px 0
+    }
+    .sm_model_dropdown_unit {
+        padding: 4px 0
+    }
+    .subfooter ul {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .subfooter ul li {
+        display: block;
+        text-align: center;
+        margin: 4px 0 !important;
+        width: 100%;
+    }    
+    ul.header_top_list li {
+        margin-left: 1px!important;
+    }
+    .landing_featured_box h5 {
+        font-size: 16px;
+    }
+}/*ends 480px*/
+
+
+@media (min-width:480px) {
+    .collapse.dont-collapse-sm {
+        display: block;
+        height: auto!important;
+        visibility: visible
+    }
+}
